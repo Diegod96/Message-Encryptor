@@ -27,7 +27,7 @@
                                 </label>
                             </td>
                             <td>
-                                <input type="text" name="key" class="form-control" placeholder="Type your encryption key">
+                                <input type="text" name="key" class="form-control" required placeholder="Type your encryption key">
                             </td>
                         </tr>
                         <tr>

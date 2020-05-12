@@ -29,7 +29,7 @@
                                 <label>
                                     <h4>Your Message:</h4>
                                 </label>
-                                <input type="text" name="msg" class="form-control" placeholder="Type your message here">
+                                <input type="text" name="msg" required class="form-control" placeholder="Type your message here with no spaces">
                             </td>
                         </tr>
                     </div>
@@ -42,7 +42,7 @@
                                 </label>
                             </td>
                             <td>
-                                <select class="form-control" name="algo">
+                                <select required class="form-control" name="algo">
                                     <option value="VIG">Vigenere</option>
                                     <option value="ROT">ROT13</option>
                                 </select>

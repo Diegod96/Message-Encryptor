@@ -29,6 +29,17 @@
             $decryptedtext = Decipher($ciphertext, $key);
             echo "<div class='container'><h4 style='color:white'>Your decrypted message is: <b style='color: white'>" . "&emsp;&emsp;" . "$decryptedtext</b></h4></div>";
             echo "</td></tr></table></center>";
+
+            echo "<div class=\"row\">
+  <div class=\"col-sm-12\">
+    <div class=\"text-center\">
+    <a href='index.php'>
+      <button class=\"btn btn-primary\" id=\"singlebutton\">Encrypt Another Message</button>
+      </a>
+    </div>
+  </div>
+</div>";
+
             break;
 
         case 'ROT':
@@ -45,6 +56,16 @@
             $decryptedtext = ROT13_Encrypt($ciphertext);
             echo "<div class='container'><h4 style='color:white'>Your decrypted message is: <b style='color: white'>" . "&emsp;&emsp;" . "$decryptedtext</b></h4></div>";
             echo "</td></tr></table></center>";
+
+            echo "<div class=\"row\">
+  <div class=\"col-sm-12\">
+    <div class=\"text-center\">
+    <a href='index.php'>
+      <button class=\"btn btn-primary\" id=\"singlebutton\">Encrypt Another Message</button>
+      </a>
+    </div>
+  </div>
+</div>";
     }
 
     function ROT13_Encrypt($msg) {
